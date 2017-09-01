@@ -7,7 +7,7 @@ export default Ember.Service.extend({
         if (!this.get('cachedMaps')) {
             this.set('cachedMaps', Ember.Object.create());
         }
-        if (!this.get('mapUtils')) {
+        if (!this.get('mapUtil')) {
             this.set('mapUtil', MapUtil.create());
         }
     },
